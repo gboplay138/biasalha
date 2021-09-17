@@ -5,37 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YODA translator</title>
-    <style>
-        textarea {
-            width: 50%;
-            height: 5vh;
-            display: ruby-base;
-            margin: 1rem;
-            padding: 2rem;
-            text-align: center;
-            margin-left: 1rem;
-
-
-        }
-
-        #Output {
-            border: 1px solid black;
-            height: 5vh;
-            width: 50%;
-            margin: 1rem;
-            padding: 1rem;
-            border-radius: 1rem;
-
-
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>This is yoda Talking !</h1>
+    <h1 class="heading">This is yoda Talking !</h1>
+    <img class="image" src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/12/20/Pictures/_0745b0ec-231b-11ea-8c10-7db3e225203f.jpg"/>
+
+    
     <textarea id="txt-input" placeholder="put your sentence in ENGLISH here and I will convert it to YODA language "></textarea>
-    <button id=translate-btn>translate</button>
-    <div style="font-size: x-large; color: brown; font-weight: bold;">Output will come here yo!!! 👇</div>
+    <button id=translate-btn>click me !!</button>
+    <div class="outbox">translated to Yodish ! 👇</div>
     <div id="Output"></div>
+    
 
 
     <script src="app.js" type="text/javascript">
