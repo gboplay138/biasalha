@@ -38,6 +38,7 @@
     font-family: 'Grechen Fuemen', cursive;
     font-weight: bolder;
     border-radius: 2rem;
+    cursor: pointer;
 
 }
 .outbox {
